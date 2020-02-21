@@ -68,6 +68,7 @@ return [
             'prefix_indexes' => true,
             'schema' => 'public',
             'sslmode' => 'prefer',
+            'identifier' => '' /* for PostgreSQL */,
         ],
 
         'sqlsrv' => [
